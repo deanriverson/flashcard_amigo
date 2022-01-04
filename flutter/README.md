@@ -1,4 +1,4 @@
-# flashcard_amigo
+# Flashcard Amigo
 
 A flash card app where you swipe right when you are correct and left when you're wrong and need more practice.
 
