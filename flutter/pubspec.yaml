@@ -21,6 +21,8 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  amplify_flutter: ^0.2.6
+  amplify_datastore: ^0.2.6
   get: ^4.1.4
   flutter:
     sdk: flutter
