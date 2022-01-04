@@ -1,0 +1,6 @@
+{
+  "appTitle": "flashcard_amigo",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
