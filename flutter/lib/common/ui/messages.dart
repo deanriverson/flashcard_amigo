@@ -1,6 +1,8 @@
 /*
  * Copyright (c) 2021 Virginia Tech Transportation Institute.  All rights reserved.
  */
+
+/*
 import 'package:get/get.dart';
 
 class Messages extends Translations {
@@ -186,3 +188,4 @@ class Messages extends Translations {
         }
       };
 }
+*/
