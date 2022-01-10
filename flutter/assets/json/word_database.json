@@ -4,6 +4,20 @@
     "es": "Hola",
     "pos": "interjection",
     "tags": [],
-    "cat": ["greeting"]
+    "cats": ["greeting"]
+  },
+  {
+    "en": "Yes",
+    "es": "Si",
+    "pos": "interjection",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "No",
+    "es": "No",
+    "pos": "interjection",
+    "tags": [],
+    "cats": []
   }
 ]

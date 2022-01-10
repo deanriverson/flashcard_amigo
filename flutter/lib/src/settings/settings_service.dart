@@ -22,6 +22,11 @@ class SettingsService {
     (await _prefs).setString(themeModeKey, theme.name);
   }
 
-  Future<String> _prefString(String key, {String withDefault = ''}) async =>
-      (await _prefs).getString(key) ?? withDefault;
+  Future<String> _prefString(String key, {String withDefault = ''}) async {
+    try {
+      return (await _prefs).getString(key) ?? withDefault;
+    } catch (e) {
+      return withDefault;
+    }
+  }
 }
