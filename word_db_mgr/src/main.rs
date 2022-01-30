@@ -1,11 +1,13 @@
 use actix_web::{middleware, web, App, HttpResponse, HttpServer};
-use log::{debug, error, info, log_enabled, Level};
 use serde::Deserialize;
 
 #[derive(Deserialize)]
-struct GcdParameters {
-    n: u64,
-    m: u64,
+struct Word {
+    en: String,
+    es: String,
+    pos: String,
+    cats: String,
+    tags: String,
 }
 
 fn main() {
@@ -31,40 +33,28 @@ fn get_index() -> HttpResponse {
         r#"
         <title>GCD Calculator</title>
         <form action="/gcd" method="post">
-            <input type="text" name="n"/>
-            <input type="text" name="m"/>
-            <button type="submit">Compute GCD</button>
+            <input type="text" name="en"/>
+            <input type="text" name="es"/>
+            <input type="text" name="pos"/>
+            <input type="hidden" name="cats" value="one, two">
+            <input type="hidden" name="tags" value="three, four">
+            <button type="submit">Save</button>
         </form>
         "#,
     )
 }
 
-fn post_gcd(form: web::Form<GcdParameters>) -> HttpResponse {
-    if form.n == 0 || form.m == 0 {
-        return HttpResponse::BadRequest()
-            .content_type("text/html")
-            .body("Computing the GCD with zero is boring.");
-    }
+fn post_gcd(form: web::Form<Word>) -> HttpResponse {
+    // if form.n == 0 || form.m == 0 {
+    //     return HttpResponse::BadRequest()
+    //         .content_type("text/html")
+    //         .body("Computing the GCD with zero is boring.");
+    // }
 
     let response = format!(
-        "The greatest common divisor of the numbers {} and{} is <b>{}</b>",
-        form.n,
-        form.m,
-        gcd(form.n, form.m)
+        "You posted {} => {}, which is a {}. cats={:?}, tags={:?}",
+        form.en, form.es, form.pos, form.cats, form.tags
     );
 
     HttpResponse::Ok().content_type("text/html").body(response)
-}
-
-fn gcd(mut n: u64, mut m: u64) -> u64 {
-    assert!(n != 0 && m != 0);
-    while m != 0 {
-        if m < n {
-            let t = m;
-            m = n;
-            n = t;
-        }
-        m = m % n;
-    }
-    n
 }
