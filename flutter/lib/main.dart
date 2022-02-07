@@ -1,4 +1,4 @@
-import 'package:flashcard_amigo/common/models/word.dart';
+import 'package:flashcard_amigo/src/common/models/word.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

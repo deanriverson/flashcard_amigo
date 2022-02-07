@@ -1,22 +1,218 @@
 [
   {
-    "en": "Hello",
-    "es": "Hola",
+    "en": "hello",
+    "es": "hola",
     "pos": "interjection",
     "tags": [],
     "cats": ["greeting"]
   },
   {
-    "en": "Yes",
-    "es": "Si",
+    "en": "yes",
+    "es": "si",
     "pos": "interjection",
     "tags": [],
     "cats": []
   },
   {
-    "en": "No",
-    "es": "No",
+    "en": "no",
+    "es": "no",
     "pos": "interjection",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "animal",
+    "es": "animal",
+    "pos": "noun",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "wind",
+    "es": "viento",
+    "pos": "noun",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "horse",
+    "es": "caballo",
+    "pos": "noun",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "tall",
+    "es": "alto",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "short",
+    "es": "baho",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "good",
+    "es": "bueno",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "bad",
+    "es": "malo",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "hot",
+    "es": "caliente",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "cold",
+    "es": "frio",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "shiny",
+    "es": "brillante",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "dark",
+    "es": "oscuro",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "small",
+    "es": "chico",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "large",
+    "es": "grande",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "clear",
+    "es": "claro",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "dirty",
+    "es": "sucio",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "strong",
+    "es": "fuerte",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "weak",
+    "es": "débil",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "beautiful",
+    "es": "hermosa",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "slow",
+    "es": "lento",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "fast",
+    "es": "rápido",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "guapo",
+    "es": "handsome",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "stubborn",
+    "es": "terco",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "wild",
+    "es": "salvaje",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "fat",
+    "es": "gordo",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "skinny",
+    "es": "flaco",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "happy",
+    "es": "felic",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "sad",
+    "es": "triste",
+    "pos": "adjective",
+    "tags": [],
+    "cats": []
+  },
+  {
+    "en": "wet",
+    "es": "mojado",
+    "pos": "adjective",
     "tags": [],
     "cats": []
   }
